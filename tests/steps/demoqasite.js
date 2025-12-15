@@ -2,7 +2,7 @@ import { createBdd } from 'playwright-bdd';
 const { Given, When, Then} = createBdd();
 import { Siteone } from '../pages/siteone';
 import { Droppable } from "../pages/Droppable";
-import { UploadDownload } from "../pages/UploadDownload";
+import { UploadDownload } from "../pages/uploadDownload";
 import { Waitstatement } from "../pages/waitstatement";
 import { Alerts, Alertsnewprog } from "../pages/alertsnewprog";
 import { chromium } from '@playwright/test';
@@ -45,7 +45,7 @@ Then("TestUpload", async({page})=>{
     const siteone = new Siteone(page)
     const uploadDownload = new UploadDownload(page)
     await siteone.launchUrl("https://demoqa.com/upload-download")
-    await uploadDownload.uploadfile("D:/Visual code/test/tests/pages/uploadDownload.js")
+    await uploadDownload.uploadfile("tests/steps/demoqasite.js")
     await uploadDownload.downloadfile("test.js")
     await page.pause()
 
