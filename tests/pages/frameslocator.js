@@ -5,7 +5,7 @@ export class Frameslocator{
     this.page = page
     this.facebook = page.locator('[id="Facebook"]')
     this.linkedin = page.locator('[id="LinkedIn"]')
-    this.youtube = page.locator('[id="youtube-Clip-2"]')
+    this.youtube = page.locator('[id="youtube-Fill-1"]')
    }   
 
 

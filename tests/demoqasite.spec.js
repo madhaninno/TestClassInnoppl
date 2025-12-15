@@ -1,7 +1,8 @@
 import { test,expect,chromium } from "@playwright/test";
 import {Siteone} from "./pages/siteone";
-import { Droppable } from "./pages/Droppable";
-import { UploadDownload } from "./pages/UploadDownload";
+
+import { Droppable } from "./pages/droppable";
+import { UploadDownload } from "./pages/uploadDownload";
 import { Waitstatement } from "./pages/waitstatement";
 import { Alerts, Alertsnewprog } from "./pages/alertsnewprog";
 
