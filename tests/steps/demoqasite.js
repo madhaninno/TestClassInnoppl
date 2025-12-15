@@ -2,7 +2,7 @@ import { createBdd } from 'playwright-bdd';
 const { Given, When, Then} = createBdd();
 import { Siteone } from '../pages/siteone';
 import { Droppable } from "../pages/Droppable";
-import { UploadDownload } from "../pages/UploadDownload";
+import { UploadDownload } from "../pages/uploadDownload";
 import { Waitstatement } from "../pages/waitstatement";
 import { Alerts, Alertsnewprog } from "../pages/alertsnewprog";
 import { chromium } from '@playwright/test';
