@@ -24,7 +24,7 @@ constructor(page){
    await this.Numberofdependents.selectOption('3')
    await this.Property_you_would_like_to_buy.click()
    await this.page.waitForTimeout(10000)
-   await this.expect(this.single).toBe
+   //await this.expect(this.single)
    }
 
 

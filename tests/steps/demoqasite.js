@@ -45,7 +45,7 @@ Then("TestUpload", async({page})=>{
     const siteone = new Siteone(page)
     const uploadDownload = new UploadDownload(page)
     await siteone.launchUrl("https://demoqa.com/upload-download")
-    await uploadDownload.uploadfile("D:/Visual code/test/tests/pages/uploadDownload.js")
+    await uploadDownload.uploadfile("tests/steps/demoqasite.js")
     await uploadDownload.downloadfile("test.js")
     await page.pause()
 
