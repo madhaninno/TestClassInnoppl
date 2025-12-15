@@ -8,10 +8,5 @@ await booking.homepage("https://www.booking.com/", "madurai")
 
 
 
-
-
-
-
-
 }
 )
