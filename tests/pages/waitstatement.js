@@ -24,10 +24,11 @@ async stopbar(value){
     let initialvalue = 0
     while(initialvalue < value){
           const valuenow = await this.progressbar.getAttribute('aria-valuenow')
-          initialvalue = parseInt(valuenow,10)
+          initialvalue = parseInt(valuenow,20)
           if(initialvalue>=value){
             await this.startbutton.click()
             break;
+            //break
           }
     }
     
